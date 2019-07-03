@@ -16,5 +16,5 @@ before_script:
 script:
 - ng lint
 - ng build --prod --base-href https://xocoatzin.github.io/gh-pages-angular-demo/
-- npx angular-cli-ghpages --dir=dist/site/ --repo=https://GH_TOKEN@github.com/xocoatzin/gh-pages-angular-demo.git
+- npx angular-cli-ghpages --dir=dist/site/ --repo=https://GH_TOKEN@github.com/xocoatzin/gh-pages-angular-demo.git --message=TRAVIS_COMMIT_MESSAGE
 
