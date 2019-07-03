@@ -11,9 +11,10 @@ branches:
 before_script:
 - cd site
 - npm install -g @angular/cli
+- npm install
 
 script:
 - ng lint
-- ng build --prod --base-href https://t-palmer.github.io/travis-demo/
+- ng build --prod --base-href https://xocoatzin.github.io/gh-pages-angular-demo/
 - npx angular-cli-ghpages --dir=dist/site/
 
